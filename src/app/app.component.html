@@ -1,0 +1,27 @@
+<div class="container">
+   <h1>!!TodoList With Add,Delete And Edit Operations!! </h1>
+  <div style="margin-top:100px;">
+              <app-modal
+                    (dataCreate)="oncreate($event)"
+                    (deleteYes) = "onDeleteOneEntry($event)"
+                    [newdata]="allow1" 
+                    [newdata2]="allow2"
+                    [newdata3]="allow3" 
+                    [newEditdata] ="editIndex"
+                    (dataEdit)= "dataEdited($event)">
+              </app-modal>
+  </div>
+ 
+ <div  style="margin-top:60px;">
+    <button type="button" (click)="onClick()">AddEntry</button>
+    <app-table-list  
+            [data]="next" (deleteData)="ondelete($event)"
+            (dele)="ondelAlert($event)"
+            (editItemList) ="onEditListAdded($event)"
+            (editindex)="indexForEdit($event)">
+    </app-table-list>
+    
+  </div>
+  </div>
+
+

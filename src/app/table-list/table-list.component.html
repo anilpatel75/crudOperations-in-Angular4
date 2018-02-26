@@ -1,0 +1,21 @@
+
+<div class="container">
+
+    <table class="table table-bordered table-hover ">
+        <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Action</th>
+        </tr>
+        <tr *ngFor="let dat of data; let i = index">
+            <td>{{dat.id}}</td>
+            <td>{{dat.name}}</td>
+            <td>{{dat.Age}}</td>
+            <td>
+                <button type="button"  class="btn btn-default" (click)="deletePopup(i)">Delete</button>&nbsp;
+                <button type="button"  class="btn btn-default" (click)="onEditList(dat,i)">Edit</button>
+            </td>
+        </tr>
+</table>
+</div>

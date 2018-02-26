@@ -1,0 +1,20 @@
+button{
+    width:100px;
+    height:35px;
+    background-color:#afaf99;
+    border-radius: 5px;
+    margin-left:20px;
+    padding:10px;
+}
+th{
+    background-color:#afaf99; 
+   
+}
+table{
+    width:900px;
+    height:auto;
+    border:1px solid black;
+
+}
+
+

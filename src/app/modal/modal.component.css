@@ -1,0 +1,43 @@
+.first
+{
+ width:600px;
+ height:300px;
+ margin-left:200px;
+ margin-top:50px;
+ border:1px solid rgb(187, 181, 181);
+ background-color:white;
+
+}
+.first1
+{
+ width:600px;
+ height:250px;
+ margin-left:200px;
+ margin-top:50px;
+ border:1px solid rgb(187, 181, 181);
+ background-color:white;
+
+}
+button{
+    width:80px;
+    height:30px;
+    background-color:#afaf99;
+    border-radius: 5px
+
+}
+.button1{
+    width:80px;
+    height:30px;
+    background-color:#afaf99;
+    border-radius: 5px;
+    margin-top:94px;
+    
+}
+h1{
+    margin-left:50px;
+    margin-top:20px;
+    
+     
+}
+
+
